@@ -141,10 +141,10 @@ body {
     .lista__link a:hover{
         color: var(--botao-azul);
     }
-    .lista__link a : active{
-        clor:purple;
+    .lista__link a:hover active{
+        color :var(--botao-roxo) 
     }
-    .container__botao:hover{
+    .container__botao a:hover{
         background-color: var(--botao-azul-efeito) ;
         color:var(--cor-de-fundo);
     }
